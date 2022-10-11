@@ -1,0 +1,37 @@
+#azul{
+	background-color: lightblue;
+	color: white;
+	border: none;
+	padding: 10px 30px;
+    border-radius: 20px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#azul:hover{
+    background-color: rgb(199, 231, 241);
+}
+
+#azul:active{
+    background-color: rgb(106, 199, 230);
+}
+
+#verde{
+	background-color: rgb(39, 167, 39);
+	color: white;
+	border: none;
+	padding: 10px 30px;
+    border-radius: 20px;
+	text-align: center;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#verde:hover{
+    background-color: rgb(40, 202, 40);
+}
+
+#verde:active{
+    background-color: rgb(25, 134, 25);
+}
