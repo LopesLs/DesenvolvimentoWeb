@@ -15,30 +15,19 @@
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
-		<style>
-			th, td{
-				text-align: center;
-			}
-			body{
-				background-color: grey;
-			}
-
-			h1{
-				color: whitesmoke;
-			}
-		</style>
-		
+		<link rel="stylesheet" href="locadora.css">	
 	</head>
+	
 	<body>
 		<!--Criando a barra de navegação-->
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
 			
 			<!--Criando o container onde ficarão todos os itens da barra-->
 			<div class="container-fluid">
 				
 				<!--Dando o título que fica na barra chamado brand-->
-				<a class="navbar-brand" href="#">
-					<img src="film.png" alt="ícone do filme" width="50px" height="40px" class="d-inline-block align-text-center"> Locadora Lopez
+				<a class="navbar-brand" href="#HomePage">
+					<img src="Imagens/film.png" alt="ícone do filme" width="50px" height="40px" class="d-inline-block align-text-center"> Locadora Lopez
 				</a>
 				
 				<!--Criando o menu com as opções que ficaram na barra de navegação-->
@@ -54,139 +43,163 @@
 						
 						<!--Segunda opção da nossa barra de navegação, dropdown-->
 						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" id="dropGeneros" href="#Dropante" data-bs-toggle="dropdown">Filmes por Categoria</a>
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Filmes por Categoria</a>
 
+							<!--Menu que vai ser dropado após o usuário clicar-->
 							<ul class = "dropdown-menu dropdown-menu-dark">
-								<li><a class = 'dropdown-item' href="#gAcao">Ação</a>     </li>
-								<li><a class="dropdown-item"   href="#gAnimacao">Animação</a> </li>
-								<li><a class = 'dropdown-item' href="#gRomance">Romance</a>  </li>
-								<li><a class = 'dropdown-item' href="#gSuspense">Suspense</a> </li>
+								<li><a class = 'dropdown-item' href="#acao">Ação  		 </a></li>
+								<li><a class = 'dropdown-item' href="#aventura">Aventura </a></li>
+								<li><a class = 'dropdown-item' href="#romance">Romance   </a></li>
+								<li><a class = 'dropdown-item' href="#suspense">Suspense </a></li>
+								<li><a class = 'dropdown-item' href="#drama">Drama       </a></li>
+								<li><a class = 'dropdown-item' href="#comedia">Comédia   </a></li>
 							</ul>
 						</li>
 						
 						<!--Terceira opção da nossa barra de navegação-->
 						<li class="nav-item">
-							<a class="nav-link disabled">Cadastrar Filmes</a>
+							<a href="#TituloCadastro" class="nav-link active">Cadastrar Filmes</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</nav>
 
-		<br class="divi">
-
-		<h1 class="display-1 text-center mb-lg-5">Tabela de Filmes</h1>
-
+		<!--Criando o nome do título em h1 da tabela filmes-->
+		<div class="container">
+			<h1 id = "TableFilmes" class="display-1 text-center mb-lg-5">Tabela de Filmes</h1>
+		</div>
+		
+		<!--Criando um container onde se encontrará nossa tabela-->
 		<div class="container">
 			<table class="table table-dark table-bordered table-hover">
 				
 				<!-- Linha com títulos das colunas -->
 				<thead>
 					<tr>
-						<th>Código		 </th>
-						<th>Título		 </th>
-						<th>Diretor		 </th>
-						<th>Lançamento	 </th>
-						<th>Gênero		 </th>
-						<th>Atriz    	 </th>
-						<th>Nota IMDb</th>
+						<th>Código		 	</th>
+						<th>Título		 	</th>
+						<th>Diretor		 	</th>
+						<th>Lançamento	 	</th>
+						<th>Gênero		 	</th>
+						<th>Atriz Principal </th>
+						<th>Nota IMDb 		</th>
 					</tr>
 				</thead>
 				
+				<!-- Corpo da tabela -->
 				<tbody>
-					<!-- Linha expandida com gênero do filme -->
+					
+					<!-- Linha expandida com gênero ação -->
 					<tr>
-						<th style="background-color: #1c1c1c;" class="text-center " colspan="7" id="#gAcao">Ação</th>
+						<th style="background-color: #1c1c1c;" colspan="7" id="acao">Ação</th>
 					</tr>
 					
 					<!-- Primeiro filme Gênero Ação -->
 					<tr>
 						<th>1</th>
-						<td>Príncipe da Pérsia: As Areias do Tempo</td>
-						<td>Mike Newell</td>
+						<td><a href="https://g.co/kgs/3R6gJd">Príncipe da Pérsia: As Areias do Tempo</a></td>
+						<td><a href="https://g.co/kgs/4Kav3J">Mike Newell</a></td>
 						<td>3 de junho de 2010</td>
 						<td>Ação</td>
-						<td>Atriz</td>
-						<td>Nota</td>
+						<td><a href="https://g.co/kgs/uFWnh1">Jake Gyllenhaal</a></td>
+						<td>6.6</td>
 					</tr>
 					
-					<!-- Segundo filme -->
+					<!-- Segundo filme Gênero Ação-->
 					<tr>
 						<th>2</th>
-						<td>Título</td>
-						<td>Diretor</td>
-						<td>Ano</td>
-						<td>Gênero</td>
-						<td>Atriz</td>
-						<td>Notas</td>
+						<td><a href="https://g.co/kgs/xZJNXQ">Rambo Programado para Matar</a></td>
+						<td><a href="https://en.wikipedia.org/wiki/Ted_Kotcheff">Ted Kotcheff</a></td>
+						<td>6 de novembro de 1982</td>
+						<td>Ação</td>
+						<td><a href="https://pt.wikipedia.org/wiki/Sylvester_Stallone">Sylvester Stallone</a></td>
+						<td>7.7</td>
 					</tr>
 					
-					<!-- Terceiro filme -->
+					<!-- Terceiro Filme Gênero Ação -->
 					<tr>
 						<th>3</th>
-						<td>Título</td>
-						<td>Diretor</td>
-						<td>Ano</td>
-						<td>Gênero</td>
-						<td>Atriz</td>
-						<td>Nota</td>
+						<td><a href="https://g.co/kgs/5nWKMX">O Predador: A Caçada</a></td>
+						<td><a href="https://g.co/kgs/VKBGpD">Dan Trachtenberg</a></td>
+						<td>5 de agosto de 2022</td>
+						<td>Ação</td>
+						<td><a href="https://g.co/kgs/HBgEJq">Amber Midthunder</a></td>
+						<td>7.2</td>
 					</tr>
 					
-					<!-- Linha expandida com gênero do filme -->
+					<!-- Linha expandida com gênero aventura -->
 					<tr>
-						<th style="background-color: #1c1c1c;" class="text-center" colspan='7' id="#gAnim">Animação</th>
+						<th style="background-color: #1c1c1c;" colspan='7' id="aventura">Aventura</th>
 					</tr>
 					
-					<!-- Quarto Filme filme -->
+					<!-- Primeiro Filme Gênero Aventura -->
 					  <tr>
 						<th>4</th>
-						<td>Título</td>
-						<td>Diretor</td>
-						<td>Ano</td>
-						<td>Gênero</td>
-						<td>Atriz</td>
-						<td>Nota</td>
+						<td><a href="https://g.co/kgs/8J3k51">WALL·E</a></td>
+						<td><a href="https://g.co/kgs/xkYfr2">Andrew Stanton</a></td>
+						<td>27 de junho de 2008</td>
+						<td>Aventura</td>
+						<td>Robo Walle</td>
+						<td>8.4</td>
 					</tr>
 					
-					<!-- Quinto filme -->
+					<!-- Segundo Filme Gênero Aventura -->
 					<tr>
 						<th>5</th>
-						<td>Título</td>
-						<td>Diretor</td>
-						<td>Ano</td>
-						<td>Gênero</td>
-						<td>Atriz</td>
-						<td>Nota</td>
+						<td><a href="https://g.co/kgs/eo5Wfz">Up - Altas Aventuras</a></td>
+						<td><a href="https://g.co/kgs/t4eTni">Pete Docter</a></td>
+						<td>4 de setembro de 2009</td>
+						<td>Aventura</td>
+						<td><a href="https://g.co/kgs/ZLjh8f">Carl Fredricksen</a></td>
+						<td>8.3</td>
 					</tr>
 					
-					<!-- Sexto filme -->
+					<!-- Terceiro FIlme Gênero Aventura -->
 					<tr>
 						<th>6</th>
-						<td>Título</td>
-						<td>Diretor</td>
-						<td>Ano</td>
-						<td>Gênero</td>
-						<td>Atriz</td>
-						<td>Nota</td>
+						<td><a href="https://g.co/kgs/ZvugMb">Rio 2</a></td>
+						<td><a href="https://g.co/kgs/2gTHrV">Carlos Saldanha</a></td>
+						<td>27 de março de 2014</td>
+						<td>Aventura</td>
+						<td><a href="https://g.co/kgs/Y28z8L">Jesse Einsenberg (Blu)</a></td>
+						<td>6.3</td>
 					</tr>
+
+					<!-- Linha expandida com gênero drama -->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan='7' id="drama">Drama</th>
+					</tr>
+
+					<!-- Linha expandida com gênero comédia -->
+					<tr>
+						<th style="background-color: #1c1c1c;" colspan='7' id="comedia">Comédia</th>
+					</tr>
+
 				</tbody>
 			</table>
 		</div>
 
+		<!--Linha divisória entre tabela filmes e cadastro filmes-->
 		<div class="m-5">
 			<hr class = 'border-dark border-5 opacity-100'>
 		</div>
 
 		<!--Título do cadastro de filmes-->
-		<h1 class="text-center mb-5"> Cadastro de filmes </h1>
+		<div class="container">
+			<h1 id="TituloCadastro" class="display-3 text-center mb-5"> Cadastro de filmes </h1>
+		</div>
 
+		<!--Criando o container onde serão criados os formulários-->
 		<div class="container mb-5">
 			<form>
+				
 				<!--Linha código e lançamento-->
-				<div class="row">
+				<div id="firstline" class="row">
+					
 					<div class="mb-3 col">
 						<label class = 'form-label' for="codFilme">Código: </label>
-						<input class = 'form-control' type="number" id="codFilme">
+						<input class = 'form-control' type="number" id="codFilme" placeholder="Digite seu código">
 					</div>
 
 					<div class = "mb-3 col">
@@ -196,7 +209,7 @@
 				</div>
 	
 				<!--Linha título e diretor-->
-				<div class="row">
+				<div id = 'secondline' class="row">
 					<div class = "mb-3 col">
 						<label class = 'form-label' for="titFilme">Título: </label>
 						<input class = "form-control" type="text" id="titFilme">
@@ -211,33 +224,31 @@
 				<br>
 
 				<!--Linha gêneros-->
-				<div class="row">
-					<div class = "mb-3 col form-check">
-						<input class = "form-check-input" type="radio" id="radacao" name="generos">
-						<label class = 'form-label' for="radgacao">Ação</label>
-
-						<br>
-
-						<input class = "form-check-input" type="radio" id="radasus" name="generos">
-						<label class = 'form-label' for="radasus">Suspense</label>
-
-						<br>
-
-						<input class = "form-check-input" type="radio" id="radanim" name="generos">
-						<label class = 'form-label' for="radanim">Animação</label>
-
-						<br>
-
-						<input class = "form-check-input" type="radio" id="radrom" name="generos">
-						<label class = 'form-label' for="radrom">Romance</label>
-					</div>
+				<div class="col form-floating mb-5">
+					
+					<select class="form-select mb-5" id="floatingSelect">
+					  <option selected>Abrir opções de gênero</option>
+					  <option value="1">Ação</option>
+					  <option value="2">Romance</option>
+					  <option value="3">Aventura</option>
+					  <option value="4">Suspense</option>
+					  <option value="5">Drama</option>
+					  <option value="6">Comédia</option>
+					</select>
+					
+					<label id="labelfloating" for="floatingSelect">Escolha o gênero</label>
 				</div>
 	
 				<!--Botão enviar-->
-				<div class="col-auto">
-					<button type="submit" class="btn btn-primary">Cadastrar</button>
+				<div class="col">
+					<button type="submit" class="btn btn-dark">Enviar dados</button>
 				</div>
 			</form>	
+		</div>
+
+		<!--Linha divisória para o fim do site-->
+		<div class="m-5">
+			<hr class = 'border-dark border-5 opacity-100'>
 		</div>
 	</body>
 </html>
