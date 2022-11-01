@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equações com JS</title>
+
+    <link rel="stylesheet" href="equations.css">
+
+    <!--Importando JavaScript Externo-->
+    <script src="equations.js"></script>
+
+    <!--Importando Ícones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Importando Css Dependências-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Importando Js dependências-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Criando nossa barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+
+        <!--Criando o container onde ficarão todos os itens da barra-->
+        <div class="container-fluid">
+
+            <!--Dando o título que fica na barra chamado brand-->
+            <a class="navbar-brand" href="https://github.com/SmokeDevL">
+                <img src="Smokes.png" alt="ícone do filme" width="50em" height="50em"
+                    class="d-inline-block align-text-center">
+            </a>
+
+            <!--Criando o menu com as opções que ficaram na barra de navegação-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex alinha-direita" role="search">
+                    <input class="form-control me-2 text-bg-dark" type="search" placeholder="Pesquisar">
+                    <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Criando o título do site-->
+    <div class="container-fluid">
+        <h1 class="display-5 mb-4 mt-3 text-center">Calculando Equações Matemáticas</h1>
+    </div>
+
+    <!--Criando onde serão colocadas todas as equações e botões-->
+    <div class="container-fluid">
+
+        <!-- Criando uma section para primeira equação-->
+        <section class="p-3 mt-5">
+            <p class="mb-4 d-inline">Equação 01 --> <span id="firstequation">6 + 20 - 12 x 2</span></p>
+
+            <button type="button" class="btn btn-outline-primary ms-2" onclick="calcular()">Calcular</button>
+        </section>
+
+        <!-- Criando outra section para segunda equação-->
+        <section class="p-3">
+            <p class="mb-4 d-inline">Equação 02 --> <span id="secondequation">30 ÷ [10 + (2 + 3)]</span></p>
+
+            <button type="button" class="btn btn-outline-primary ms-2" onclick="calcular2st()">Calcular</button>
+        </section>
+
+        <!-- Criando outra section para terceira equação-->
+        <section class="p-3">
+            <p class="mb-4 d-inline">Equação 03 --> <span id="thirdequation">[(18 + 3 · 2) ÷ 8 + 5 · 3] ÷ 6</span></p>
+
+            <button type="button" class="btn btn-outline-primary ms-2" onclick="calcular3st()">Calcular</button>
+        </section>
+
+        <!-- Criando outra section para quarta equação-->
+        <section class="p-3">
+            <p class="mb-4 d-inline">Equação 04 --> <span id="fourthequation">[(64 - 16·4) + (48·10 - 180)]·5</span></p>
+
+            <button type="button" class="btn btn-outline-primary ms-2" onclick="calcular4st()">Calcular</button>
+        </section>
+
+        <!-- Criando outra section para quinta equação-->
+        <section class="p-3 mb-5">
+            <p class="mb-4 d-inline">Equação 05 --> <span id="fifthequation">{[(8 · 4 + 3) ÷ 7 + (3 + 15 ÷ 5) · 3] · 2 -
+                    (19 - 7) ÷ 6} · 2 + 12</span></p>
+
+            <button type="button" class="btn btn-outline-primary ms-2" onclick="calcular5st()">Calcular</button>
+        </section>
+    </div>
+
+    <!--Criando o rodapé da página-->
+    <div id="rodape">
+        <!--Criando o footer-->
+        <footer class="text-bg-dark">
+            <div class="container-footer">
+                <!--Definindo a primeira linha do rodapé-->
+                <div class="row-footer">
+
+                    <!-- Definindo a primeira coluna do rodapé-->
+                    <div class="footer-col">
+                        <h4>Sobre mim</h4>
+                        <ul>
+                            <li><a href="https://github.com/SmokeDevL"> Meus Projetos </a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Definindo a segunda coluna do rodapé-->
+                    <div class="footer-col">
+                        <h4>Obter ajuda</h4>
+                        <ul>
+                            <li><a
+                                    href="https://github.com/SmokeDevL/Desenvolvilmento-Web-Front-End/tree/main/Aula%2009%20Tarefa%20de%20Casa">Desenvolvimento
+                                    do Site</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Definindo a terceira coluna do rodapé -->
+                    <div class="footer-col">
+                        <h4>Ajude-me</h4>
+                        <ul>
+                            <li><a href="#">Doar em prol do meu almoço</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Definindo a quarta coluna do rodapé-->
+                    <div class="footer-col">
+                        <h4>Envie-me seu E-mail</h4>
+
+                        <!--Criando um input como quarta coluna-->
+                        <div class="container-fluid">
+                            <form>
+                                <input class="form-control mb-3 text-bg-dark" type="email"
+                                    placeholder="Digite o seu e-mail" required>
+                            </form>
+
+                            <!--Definindo um botão-->
+                            <div class="container mb-2">
+                                <button type="submit" class="btn btn-outline-primary center">Enviar</button>
+                            </div>
+                        </div>
+
+                        <!--Criando Ícones das redes sociais-->
+                        <div class="medias-socias">
+                            <a href="https://www.facebook.com/profile.php?id=100006551354506"> <i
+                                    class="fa fa-facebook"></i> </a>
+                            <a href="#"> <i class="fa fa-whatsapp"></i> </a>
+                            <a href="https://www.linkedin.com/in/carlos-e-2b553b249/"> <i class="fa fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
