@@ -1,0 +1,142 @@
+h1{
+    text-align: center;
+}
+
+h1:hover{
+    padding-left: 10px;
+    transition: 1s;
+}
+
+button{
+    margin-left: 4.5rem !important;
+}
+
+body{
+    color: #c1c1c1;
+    background-image: url(data:image/jpeg;base64,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);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.alinha-direita{
+    margin-left: 23em;
+}
+
+.max--width{
+    height: 2rem !important;
+}
+
+h2{
+    margin-top: 1em !important;
+    margin-left: 1em !important;
+}
+
+h2:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+    transition: 1s;
+}
+
+.sectioncenter{
+    width: 40rem;
+    height: 8rem;
+    margin-left: 18rem;
+}
+
+footer{
+    background-color: #1c1c1c;
+    padding: 3em 0em;
+    width: max;
+    height: 17.5rem;
+}
+
+.container-footer{
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li{
+    margin: 2rem 0rem;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #cecdcd;
+    padding-left: 10px;
+}
+
+.footer-col .medias-socias{
+    margin-top: 2em;
+    margin-left: 3em;
+}
+
+.footer-col .medias-socias a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.5s ease;
+}
+
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+
+.footer-col .medias-socias a:hover{
+    color: #415aca;
+    background-color: white;
+}
+
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: #415aca;
+}
+
+.footer-col .form-sub input::placeholder{
+    color: white;
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Importância Git</title>
+    
+    <!--Importando css feito na mão-->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!--Importando o Popper para funcionarem os dropdowns-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <!--Importando Ícones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Importando Css Dependências-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Importando Js dependências-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Criando nossa barra de navegação-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+
+        <!--Criando o container onde ficarão todos os itens da barra-->
+        <div class="container-fluid">
+
+            <!--Dando o título que fica na barra chamado brand-->
+            <a class="navbar-brand" href="#HomePage">
+                <img src="Images/pic01.png" alt="ícone do Git" width="50em" height="50em"
+                    class="d-inline-block align-text-center"> Artigo Git
+            </a>
+
+            <!--Criando o menu com as opções que ficaram na barra de navegação-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <!--Criando o que cada opção vai fazer-->
+                <ul class="navbar-nav">
+
+                    <!--Primeira opção da nossa barra de navegação, dropdown-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sumário Tópicos</a>
+
+                        <!--Menu que vai ser dropado após o usuário clicar-->
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class='dropdown-item' href="#firstopic">Versionamento </a></li>
+                            <li><a class='dropdown-item' href="#secondtopic">Vantagens </a></li>
+                            <li><a class='dropdown-item' href="#thirdtopic">Conclusão </a></li>
+                        </ul>
+                    </li>
+
+                    <!--Segunda opção da nossa barra de navegação-->
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#rodape"> Ir ao Rodapé</a>
+                    </li>
+
+                    <!--Terceira opção da nossa barra de navegação-->
+                    <li class="nav-item">
+                        <a href="https://coodesh.com/blog/dicionario/o-que-e-git/"
+                            class="nav-link active">Referências</a>
+                    </li>
+                </ul>
+                <form class="d-flex alinha-direita" role="search">
+                    <input class="form-control me-2 text-bg-dark" type="search" placeholder="Pesquisar">
+                    <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--Definindo Título do site-->
+    <div class="container">
+        <h1 class="display-4 mb-5 text-light">O que é git?</h1>
+    </div>
+
+    <!--Definindo o primeiro tópico-->
+    <div class="container-fluid">
+        <h2 class="h2 text-light mb-4" id="firstopic">1. É um sistema de versionamento de código</h2>
+    </div>
+
+    <!--Organizando os parágrafos de forma eficiente-->
+    <div class="container-fluid ">
+        <section class="sectioncenter">
+            <p class="p-4 text-light ">
+                O Git foi lançado no intuíto de melhor a vida de quem trabalha com desenvolvimento. Resumidamente, é um
+                sistema de controle de versão distribuído. Por ser muito conhecido neste cenário, é importante que
+                esteja na sua lista de estudos para que você seja um developer de referência. Por tanto é importante que
+                você acompanhe o desenrolar deste artigo.
+            </p>
+        </section>
+
+        <section class="sectioncenter">
+            <p class="p-4 text-light">
+                No dia a dia do time de desenvolvimento, é comum haver mais de uma pessoa trabalhando no mesmo projeto.
+                Dessa forma, o Git é um grande aliado, pois cada pessoa trabalha de maneira autônoma. Além disso, o
+                projeto recebe atualizações simultâneas, sem comprometer o todo.
+            </p>
+        </section>
+    </div>
+
+    <!--Definindo o segundo tópico-->
+    <div class="container-fluid">
+        <h2 class="h2 text-light" id="secondtopic">2. Quais são as vantagens?</h2>
+    </div>
+
+    <!--Organizando os parágrafos de forma eficiente-->
+    <div class="container-fluid">
+        <section class="sectioncenter">
+            <p class="p-4 text-light">
+                O grande diferencial do Git diante de outras ferramentas existentes no mercado é simplesmente o fato
+                dele possuir um repositório central para armazenar dados, ao passo que os demais têm uma arquitetura
+                centralizada e só são usados on-line.
+            </p>
+        </section>
+
+        <section class="sectioncenter">
+            <p class="p-4 text-light">
+                Git tem um sistema de controle de versão distribuído. Dessa maneira, cada colaborador do projeto pode
+                trabalhar em suas atualizações em sua máquina, até mesmo de forma off-line.
+            </p>
+        </section>
+
+        <section class="sectioncenter">
+            <p class="p-4 text-light">
+                Também é importante salientar que você não ira correr o risco de perder informações nem de ficar
+                impedido de voltar à versão anterior do software para resgatar alguma funcionalidade ou relembrar a
+                interface.
+            </p>
+        </section>
+
+        <section class="sectioncenter">
+            <p class="p-4 text-light">
+                Além disso, outras vantagens são manter o código organizado dentro da equipe de desenvolvimento,
+                acompanhar os históricos com mais facilidade e organizar os backups diretamente da nuvem.
+            </p>
+        </section>
+    </div>
+
+    <!--Definindo o terceiro tópico-->
+    <div class="container-fluid">
+        <h2 class="h2 text-light" id="thirdtopic">3. Conclusão</h2>
+    </div>
+
+    <!--Organizando comentário de forma eficiente-->
+    <div class="container-fluid">
+        <section class="sectioncenter">
+            <p class="p-4 text-light">
+                Se você está ingressando agora no mundo da programação, aproveite para aprimorar os seus conhecimentos
+                em Git.
+            </p>
+        </section>
+    </div>
+
+    <!--Dando Início ao Rodapé-->
+    <div class="max--width" id="rodape">
+
+        <!--Criando o footer-->
+        <footer>
+            <div class="container-footer">
+                <!--Definindo a primeira linha do rodapé-->
+                <div class="row-footer">
+
+                    <!-- Definindo a primeira coluna do rodapé-->
+                    <div class="footer-col">
+                        <h4>Sobre mim</h4>
+                        <ul>
+                            <li><a href="https://github.com/SmokeDevL"> Meus Projetos </a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Definindo a segunda coluna do rodapé-->
+                    <div class="footer-col">
+                        <h4>Obter ajuda</h4>
+                        <ul>
+                            <li><a
+                                    href="https://github.com/SmokeDevL/Desenvolvilmento-Web-Front-End/tree/main/Aula%2007%20Tarefa%20de%20Casa">Desenvolvimento
+                                    do Site</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Definindo a terceira coluna do rodapé -->
+                    <div class="footer-col">
+                        <h4>Ajude-me</h4>
+                        <ul>
+                            <li><a href="#">Doar em prol do meu almoço</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Definindo a quarta coluna do rodapé-->
+                    <div class="footer-col">
+                        <h4>Envie-me seu E-mail</h4>
+
+                        <!--Criando um input como quarta coluna-->
+                        <div class="container-fluid">
+                            <form>
+                                <input class="form-control mb-3 text-bg-dark" type="email" placeholder="Digite o seu e-mail" required>
+                            </form>
+
+                            <!--Definindo um botão-->
+                            <div class="container mb-2">
+                                <button type="submit" class="btn btn-outline-primary">Enviar</button>
+                            </div>
+                        </div>
+
+                        <!--Criando Ícones das redes sociais-->
+                        <div class="medias-socias">
+                            <a href="https://www.facebook.com/profile.php?id=100006551354506"> <i
+                                    class="fa fa-facebook"></i> </a>
+                            <a href="#"> <i class="fa fa-whatsapp"></i> </a>
+                            <a href="https://www.linkedin.com/in/carlos-e-2b553b249/"> <i class="fa fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
