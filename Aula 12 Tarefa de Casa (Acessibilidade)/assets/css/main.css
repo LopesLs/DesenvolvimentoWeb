@@ -14,7 +14,6 @@
     box-sizing: border-box;
 }
 
-
 a {
     text-decoration: none;
     color: inherit;
@@ -43,6 +42,16 @@ h1, p {
     text-align: center;
 }
 
+h2 {
+    margin: 2%;
+    transition: 0.5s;
+}
+
+h2:hover{
+    font-size: 160%;
+}
+
+
 .text-center {
     width: 65%;
     margin-left: 16%;
@@ -66,14 +75,14 @@ nav {
     justify-content: space-between;
 }
 
-nav .logo a img {
+nav .logo img {
     margin: 10px;
     width: 40%;
     border-radius: 20px;
     transition: 1s;
 }
 
-nav .logo a img:hover {
+nav .logo img:hover {
     margin-left: 4%;
     width: 45%;
 }
