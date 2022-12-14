@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #643a7a;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.frame{
+    position: absolute;
+    background-color: #201c29;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    box-shadow: 8px 16px 16px rgba(0, 0, 0, 1.0);
+}
+
+.frame, .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 32px;
+    transition: 2s;
+}
+
+img:hover{
+    width: 40px;
+    cursor: pointer;
+}
+
+.flip-me {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 50%;
+    left: 80%;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.front h1 {
+    font-family: Satisfy, cursive;
+    font-size: 128px;
+    margin: 16px 80px;
+    color: #ef2f96;
+}
+
+/* Fazendo Virar */
+.card:hover .flip{
+    transform: rotateX(180deg) translate3d(0, 0, 0);
+    box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flip{
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+    perspective: 1000px;
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background: #201c29;
+}
+
+.back {
+    letter-spacing: 2px;
+    text-align: center;   
+}
+
+.back h2 {
+    font-size: 36px;
+    margin: 8px;
+    color: #ef2f96
+}
+
+.back h3 {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 32px;
+}
+
+.card .back {
+    transform: rotateX(-180deg);
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
