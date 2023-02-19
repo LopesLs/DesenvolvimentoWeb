@@ -1,0 +1,248 @@
+/* Basics but necessary*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ----------- */
+
+/* Css of Body */
+body{
+    background-image: url("https://687ef0df6612216c.demo.carrd.co/assets/images/bg.jpg?v=e6d9f3d9");
+    font-family: 'Source Sans Pro', sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/* ----------- */
+
+/* All css of our frame */
+.card{
+    position: absolute;
+    background-color: #201c29;
+    border-radius: 5%;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    box-shadow: 8px 16px 16px rgba(0, 0, 0, 1.0);
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ----------- */
+
+/* All css of our images */
+.card .flip .front img {
+    border-radius: 47%;
+}
+
+/* ----------- */
+
+/* It's all what i have about front */
+.front {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+}
+
+.front p {
+    color: rgba(255,255,255,0.329);
+    padding-top: 2%;
+}
+
+.front h1 {
+    font-weight: normal;
+    font-size: 210%;
+    color: white;
+    padding: 10px;
+}
+
+.front, .back {
+    -webkit-backface-visibility: hidden;
+    width: 100%;
+    height: 100%;
+    background: #201c29;
+}
+/* ----------- */
+
+
+/* How i did to spin the card */
+.card:hover .flip{
+    transform: rotateX(180deg) translate3d(0, 0, 0);
+}
+
+.flip{
+    width: 80%;
+    transform-style: preserve-3d;
+    transition: all 0.7s ease-in-out;
+}
+/* ----------- */
+
+/* Back version of card */
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(-180deg);
+    position: absolute;
+    top: 0;
+    left: 0; 
+}
+
+.back h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 150%;
+    margin: 15%;
+    transition: 1s ease;
+}
+
+.back h2:hover{
+    font-size: 180%;
+}
+/* ----------- */
+
+/* Nav Things */
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+}
+/* ----------- */
+
+/* Estilizando ícones */
+.discord{
+    text-decoration: none;
+    display: flex;
+    color: #7289da;
+    font-size: 120%;
+    border: 1px solid #7289da;
+    border-radius: 100%;
+    padding: 10%;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    transition-duration: 0.25s, 0.25s, 0.25s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: color, background-color, border-color;
+}
+
+.discord:hover{
+    font-size: 130%;
+    border-color: #94a0f1;
+}
+
+.linkedin{
+    padding: 12%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 110%;
+    border: 1px solid rgb(192, 181, 181);
+    border-radius: 100%;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    transition-duration: 0.25s, 0.25s, 0.25s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: color, background-color, border-color;
+}
+
+.linkedin:hover{
+    font-size: 120%;
+    border-color: white;
+}
+
+.github{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+    color: #6e5494;
+    border: 1px solid #8c6bb1;
+    border-radius: 100%;
+    padding: 10%;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    transition-duration: 0.25s, 0.25s, 0.25s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: color, background-color, border-color;
+}
+
+.github:hover{
+    font-size: 130%;
+    border-color: #a783c9;
+}
+
+.wpp{
+    text-decoration: none;
+    color: #128C7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2DBB9A;
+    border-radius: 100%;
+    padding: 10%;
+    font-size: 120%;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    transition-duration: 0.25s, 0.25s, 0.25s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: color, background-color, border-color;
+}
+
+.wpp:hover{
+    font-size: 130%;
+    border-color: #42e0c6;
+}
+/* ----------- */
+
+
+/* Bar of navigation */
+.container{
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 2%
+}
+
+.container .logo {
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    color: white;
+}
+
+.container ul{
+    list-style: none;
+}
+
+.container ul li {
+    display: inline;
+}
+
+.container ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 19px;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+.container ul li a:hover {
+    background-color: #201c29;
+}
+/* ----------- */
