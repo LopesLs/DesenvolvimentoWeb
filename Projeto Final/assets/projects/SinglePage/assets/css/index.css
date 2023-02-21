@@ -100,13 +100,12 @@ body{
 
 .back h2 {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 150%;
     margin: 15%;
     transition: 1s ease;
 }
 
 .back h2:hover{
-    font-size: 180%;
+    font-size: 165%;
 }
 /* ----------- */
 
