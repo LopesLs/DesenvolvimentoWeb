@@ -1,0 +1,23 @@
+{
+  "MD026": {
+    "punctuation": ".,;!。，；：！"
+  },
+
+  "MD033": {
+    "allowed_elements": [
+      "summary",
+      "details",
+      "br",
+      "p",
+      "div",
+      "a",
+      "h3",
+      "img",
+      "strong"
+    ]
+  },
+
+  "MD013": {
+    "line_length": 100 
+  }
+}
