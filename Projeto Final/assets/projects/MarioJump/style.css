@@ -38,7 +38,7 @@
 }
 
 .jump {
-	animation: jump 500ms infinite ease-out;
+	animation: jump 600ms infinite ease-out;
 }
 
 @keyframes jump {
