@@ -71,6 +71,13 @@ html {
 	background-color: #363535 !important;
 }
 
+textarea {
+	resize: vertical;
+	max-width: inherit;
+	min-height: 3.25rem;
+  max-height: 30rem;
+}
+
 *,
 *:before,
 *:after {
