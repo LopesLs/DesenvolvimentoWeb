@@ -57,6 +57,8 @@
 <!-- All my projects -->
 # Projetos
 
+Uma lista com shorcuts(atalhos) que te levam direto para o repositório que selecionou.
+
 - [Sobre mim](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto01-(SobreMim))
 - [Biblioteca](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto02-(Biblioteca))
 - [Biblioteca Update](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto03-(BibliotecaUpdate))
@@ -79,8 +81,7 @@
 
 # Ferramentas
 
-Use this space to list resources you find helpful and would like to give credit to.
-I've included a few of my favorites to kick things off!
+Algumas ferramentas que gostaria de compartilhar.
 
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)
@@ -92,6 +93,8 @@ I've included a few of my favorites to kick things off!
 
 <!-- CONTACT -->
 # Contatos
+
+Sinta-se a vontade para entrar em contato.
 
 - [Linkedin](https://www.linkedin.com/in/dev-carlos-lopes/)
 - [Discord](https://discord.com/users/471767983014805504)
