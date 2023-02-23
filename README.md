@@ -5,11 +5,11 @@
 
 <div align=center>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+  [![Contributors][contributors-shield]][contributors-url]
+  [![Forks][forks-shield]][forks-url]
+  [![Stargazers][stars-shield]][stars-url]
+  [![Issues][issues-shield]][issues-url]
+  [![MIT License][license-shield]][license-url]
 
 </div>
 
@@ -71,8 +71,8 @@ Uma lista de atalhos que levam diretamente ao repositório selecionado.
 - [Github](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto11-(Github))
 - [Acessibilidade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto12-(Acessibilidade))
 - [Interatividade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto13-(Interatividade))
-- [Single Page](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto14-(Single%20Page))
-- [Portifolio](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/ProjetoFinal)
+- [Single Page](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto14-(SinglePage))
+- [Portifolio](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto15-(Portfolio))
 
 <br>
 
@@ -90,7 +90,7 @@ Algumas ferramentas que gostaria de compartilhar.
 
 <br>
 
-<!-- CONTACT -->
+<!-- Contact -->
 # Contatos 📞
 
 Fique à vontade para dar um alô!
@@ -102,7 +102,7 @@ Fique à vontade para dar um alô!
 
 <br>
 
-<p align=right>(<a href="#top">Ir ao topo</a>)</p>
+<p align=right><a href="#top">Ir ao topo</a></p>
 
 <!-- Markdowns Links & Images -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
