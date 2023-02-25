@@ -55,20 +55,9 @@ html {
 	display: none;
 }
 
-#design {
-	color: #ffffff7e !important;
-}
-
-#design:hover {
-	color: #499ebf !important;
-}
 
 #three, #fourth {
 	margin: 2rem 0 0 0 !important;
-}
-
-.blackComponent {
-	background-color: #363535 !important;
 }
 
 textarea {
@@ -90,7 +79,7 @@ strong {
 }
 
 body {
-	background: #161616;
+	background: #101113;
 }
 
 body.is-preload *,
@@ -121,7 +110,7 @@ a {
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	border-bottom: dotted 1px;
-	color: #00000080 !important;
+	color: #fcf4f480 !important;
 	text-decoration: none;
 }
 
@@ -131,6 +120,23 @@ a:hover {
 	text-decoration: none;
 }
 
+a:hover.whatsapp {
+	border-bottom: transparent;
+	color: #189d0e !important;
+	text-decoration: none;
+}
+
+a:hover.github {
+	border-bottom: transparent;
+	color: #171515 !important;
+	text-decoration: none;
+}
+
+a:hover.discord {
+	border-bottom: transparent;
+	color: #5865f2 !important;
+	text-decoration: none;
+}
 
 p {
 	margin: 2rem 0 2rem 0;
@@ -218,7 +224,7 @@ textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-	background: #f7f7f7;
+	background: #2e3335;
 	border-radius: 0.35rem;
 	border: solid 2px transparent;
 	color: inherit;
@@ -513,7 +519,7 @@ ul.labeled-icons li a {
 }
 
 ul.labeled-icons li h3 {
-	color: #b2b2b2;
+	color: #eae2d6;
 	left: 0;
 	position: absolute;
 	text-align: center;
@@ -789,7 +795,6 @@ input[type="submit"]:active,
 }
 
 #header h1 {
-	color: rgba(255, 255, 255, 0.5);
 	font-size: 1.35rem;
 	line-height: 1.75rem;
 	margin: 0;
@@ -806,10 +811,6 @@ input[type="submit"]:active,
 	margin: 1rem 0 0 0;
 }
 
-#footer .icons a {
-	color: rgba(255, 255, 255, 0.4);
-}
-
 #footer .copyright {
 	color: rgba(255, 255, 255, 0.4);
 	font-size: 0.8rem;
@@ -819,7 +820,7 @@ input[type="submit"]:active,
 }
 
 #footer .copyright li {
-	border-left: solid 1px rgba(255, 255, 255, 0.25);
+	border-left: solid 1px rgba(49, 46, 46, 0.329);
 	display: inline-block;
 	line-height: 1rem;
 	margin-left: 0.75rem;
