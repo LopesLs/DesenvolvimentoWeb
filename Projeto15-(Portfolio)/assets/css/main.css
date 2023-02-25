@@ -78,6 +78,11 @@ textarea {
   max-height: 30rem;
 }
 
+strong {
+	color: white;
+	font-weight: 400;
+}
+
 *,
 *:before,
 *:after {
@@ -126,10 +131,6 @@ a:hover {
 	text-decoration: none;
 }
 
-strong {
-	color: #787878;
-	font-weight: bolder;
-}
 
 p {
 	margin: 2rem 0 2rem 0;
@@ -163,6 +164,14 @@ hr {
 	border-bottom: solid 2px #efefef;
 	margin: 2rem 0;
 }
+
+
+/* Aligns */
+
+.align-center {
+	text-align: center;
+}
+
 
 /* Section/Article */
 
@@ -425,6 +434,42 @@ ul li {
 }
 
 /* Icons */
+
+i {
+	font-size: 1.15rem;
+}
+
+i.html {
+	color: #f16529;
+}
+
+i.css {
+	color: #3773ff;
+}
+
+i.js {
+	color: #f8dc3e;
+}
+
+i.python {
+	color: #108fd6;
+}
+
+i.react {
+	color: #61dbfb;
+}
+
+i.bootstrap {
+	color: #8213e9;
+}
+
+i.nodejs{
+	color: #80bd41;
+}
+
+i.git{
+	color: #f05033;
+}
 
 ul.icons {
 	cursor: default;
@@ -737,9 +782,6 @@ input[type="submit"]:active,
 	margin: 0 0 2rem 0;
 }
 
-#header strong {
-	color: #ffffff;
-}
 
 #header h2,
 #header h3 {
