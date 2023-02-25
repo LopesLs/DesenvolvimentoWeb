@@ -8,7 +8,7 @@
 
 /* Css of Body */
 body{
-    background-image: url("https://687ef0df6612216c.demo.carrd.co/assets/images/bg.jpg?v=e6d9f3d9");
+    background-image: url("../images/bg.jpg");
     font-family: 'Source Sans Pro', sans-serif;
     background-repeat: no-repeat;
     background-position: center;
@@ -21,13 +21,13 @@ body{
 .card{
     position: absolute;
     background-color: #201c29;
-    border-radius: 5%;
+    border-radius: 2rem;
     top: 50%;
     left: 50%;
-    width: 30%;
-    height: 400px;
+    width: 27rem;
+    height: 25rem;
     transform: translate(-50%, -50%);
-    box-shadow: 8px 16px 16px rgba(0, 0, 0, 1.0);
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 1.0);
 }
 
 .card{
@@ -39,7 +39,9 @@ body{
 
 /* All css of our images */
 .card .flip .front img {
-    border-radius: 47%;
+    border-radius: 100%;
+    margin: 0 0 1rem 0;
+	width: 6.25rem;
 }
 
 /* ----------- */
@@ -50,23 +52,24 @@ body{
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    padding: 15px;
+    padding: 1rem;
 }
 
 .front p {
     color: rgba(255,255,255,0.329);
-    padding-top: 2%;
+    padding-top: 1rem;
 }
 
 .front h1 {
     font-weight: normal;
-    font-size: 210%;
+    font-size: 2rem;
     color: white;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .front, .back {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     width: 100%;
     height: 100%;
     background: #201c29;
@@ -100,110 +103,63 @@ body{
 
 .back h2 {
     color: rgba(255, 255, 255, 0.7);
-    font-size: 150%;
-    margin: 15%;
+    margin: 3rem;
     transition: 1s ease;
 }
 
 .back h2:hover{
-    font-size: 180%;
+    font-size: 1.7rem;
 }
 /* ----------- */
 
 /* Nav Things */
 .icons{
     display: flex;
+    font-size: 1.5rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 30%;
+    text-decoration: none;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    gap: 3rem;
+    transition-duration: 0.25s, 0.25s, 0.25s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+    transition-property: color, background-color;
 }
 /* ----------- */
 
 /* Estilizando ícones */
 .discord{
-    text-decoration: none;
-    display: flex;
     color: #7289da;
-    font-size: 120%;
-    border: 1px solid #7289da;
-    border-radius: 100%;
-    padding: 10%;
-    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    transition-duration: 0.25s, 0.25s, 0.25s;
-    transition-timing-function: ease, ease, ease;
-    transition-delay: 0s, 0s, 0s;
-    transition-property: color, background-color, border-color;
 }
 
 .discord:hover{
-    font-size: 130%;
-    border-color: #94a0f1;
+    font-size: 2rem;
 }
 
 .linkedin{
-    padding: 12%;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: whitesmoke;
-    font-size: 110%;
-    border: 1px solid rgb(192, 181, 181);
-    border-radius: 100%;
-    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    transition-duration: 0.25s, 0.25s, 0.25s;
-    transition-timing-function: ease, ease, ease;
-    transition-delay: 0s, 0s, 0s;
-    transition-property: color, background-color, border-color;
 }
 
 .linkedin:hover{
-    font-size: 120%;
-    border-color: white;
+    font-size: 2rem;
 }
 
 .github{
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 120%;
     color: #6e5494;
-    border: 1px solid #8c6bb1;
-    border-radius: 100%;
-    padding: 10%;
-    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    transition-duration: 0.25s, 0.25s, 0.25s;
-    transition-timing-function: ease, ease, ease;
-    transition-delay: 0s, 0s, 0s;
-    transition-property: color, background-color, border-color;
 }
 
 .github:hover{
-    font-size: 130%;
-    border-color: #a783c9;
+    font-size: 2rem;
 }
 
 .wpp{
-    text-decoration: none;
     color: #128C7E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #2DBB9A;
-    border-radius: 100%;
-    padding: 10%;
-    font-size: 120%;
-    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
-    transition-duration: 0.25s, 0.25s, 0.25s;
-    transition-timing-function: ease, ease, ease;
-    transition-delay: 0s, 0s, 0s;
-    transition-property: color, background-color, border-color;
 }
 
 .wpp:hover{
-    font-size: 130%;
+    font-size: 2rem;
     border-color: #42e0c6;
 }
 /* ----------- */
@@ -215,14 +171,17 @@ body{
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 2%
+    align-items: center;
+    padding: 1.75rem;
 }
 
 .container .logo {
-    font-size: 30px;
+    font-size: 2rem;
+    padding: 0.5rem 0.5rem;
     font-weight: bolder;
     font-style: italic;
     color: white;
+    transition: 0.6s;
 }
 
 .container ul{
@@ -236,13 +195,13 @@ body{
 .container ul li a {
     color: white;
     text-decoration: none;
-    padding: 10px 20px;
-    font-size: 19px;
-    border-radius: 30px;
+    padding: 1rem 1rem;
+    font-size: 1.25rem;
     transition: 0.6s;
 }
 
-.container ul li a:hover {
+.container ul li a:hover, .container .logo:hover {
     background-color: #201c29;
+    border-radius: 1.75rem;
 }
 /* ----------- */
