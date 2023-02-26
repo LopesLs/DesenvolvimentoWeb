@@ -62,17 +62,17 @@ Uma lista de atalhos que levam diretamente ao repositório selecionado.
 - [Biblioteca](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto02-(Biblioteca))
 - [Biblioteca Update](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto03-(BibliotecaUpdate))
 - [Paragrafo](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto04-(Paragrafo))
-- [Botoes](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto05-(Botoes))
+- [Botões](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto05-(Botoes))
 - [Locadora](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto06-(Locadora))
 - [Git](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto07-(Git))
 - [Js](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto08-(Js))
-- [Equacoes](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto09-(Equacoes))
+- [Equacões](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto09-(Equacoes))
 - [Formulario](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto10-(Formulario))
 - [Github](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto11-(Github))
 - [Acessibilidade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto12-(Acessibilidade))
 - [Interatividade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto13-(Interatividade))
 - [Single Page](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto14-(SinglePage))
-- [Portifolio](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto15-(Portfolio))
+- [Portfólio](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto15-(Portfolio))
 
 <br>
 
