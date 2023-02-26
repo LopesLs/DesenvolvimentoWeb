@@ -2,7 +2,6 @@
 <a name="top"></a>
 
 <!-- Shields -->
-
 <div align=center>
 
   [![Contributors][contributors-shield]][contributors-url]
@@ -23,16 +22,9 @@
   <h3 align="center">DesenvolvimentoWeb</h3>
 
   <p align="center">
-    Um repositório com todos meus projetos relacionados a web.
+    Transformando ideias em realidade, um projeto de cada vez.
     <br />
     <a href="https://github.com/LopesLs/DesenvolvimentoWeb"> <strong>Explore o documento »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/LopesLs/DesenvolvimentoWeb">View Demo</a>
-    ·
-    <a href="https://github.com/LopesLs/DesenvolvimentoWeb/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/LopesLs/DesenvolvimentoWeb/issues">Request Feature</a>
   </p>
 </div>
 
@@ -56,18 +48,18 @@
 <!-- All my projects -->
 # Projetos 🚀
 
-Uma lista de atalhos que levam diretamente ao repositório selecionado.
+Uma lista de atalhos que te levam diretamente ao repositório do projeto selecionado.
 
 - [Sobre mim](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto01-(SobreMim))
 - [Biblioteca](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto02-(Biblioteca))
 - [Biblioteca Update](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto03-(BibliotecaUpdate))
-- [Paragrafo](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto04-(Paragrafo))
+- [Paragráfo](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto04-(Paragrafo))
 - [Botões](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto05-(Botoes))
 - [Locadora](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto06-(Locadora))
 - [Git](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto07-(Git))
 - [Js](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto08-(Js))
 - [Equacões](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto09-(Equacoes))
-- [Formulario](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto10-(Formulario))
+- [Formulário](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto10-(Formulario))
 - [Github](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto11-(Github))
 - [Acessibilidade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto12-(Acessibilidade))
 - [Interatividade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto13-(Interatividade))
@@ -80,7 +72,7 @@ Uma lista de atalhos que levam diretamente ao repositório selecionado.
 
 # Ferramentas 🛠️
 
-Algumas ferramentas que gostaria de compartilhar.
+Algumas ferramentas que eu gostaria de compartilhar.
 
 - [Img Shields](https://shields.io)
 - [GitHub Pages](https://pages.github.com)

@@ -58,14 +58,14 @@ Olá, este é o repositório oficial do meu portfólio, que contém informaçõe
 como desenvolvedor web.
 O objetivo é apresentar uma visão completa sobre mim e o trabalho que realizei até agora.
 
-Incluí uma seção sobre mim, onde compartilho informações pessoais e profissionais. Outra seção que você irá encontrar são algumas informações sobre habilidades,
+Incluí uma seção sobre mim, onde compartilho informações pessoais e profissionais. Outra seção que você irá encontrar são informações sobre habilidades,
 a fim de fornecer uma visão mais ampla sobre elas.
 
-Também incluí alguns projetos de desenvolvimento web que selecionei para mostrar um pouco do meu trabalho e da minha abordagem para solucionar problemas.
+Também adicionei alguns projetos de desenvolvimento web que selecionei para mostrar um pouco do meu trabalho e da minha abordagem para solucionar problemas.
 
-Por fim, adicionei uma área de contatos caso deseje conversar.
+Por fim, você encontra uma área de contatos caso deseje conversar.
 
-Espero que este portfólio seja útil e cumpra seu objetivo.
+Espero que este portfólio cumpra seu objetivo.
 
 [**Visitar na Web »**](https://lopesls.github.io/DesenvolvimentoWeb/Projeto15-(Portfolio)/index.html)
 
@@ -74,7 +74,13 @@ Espero que este portfólio seja útil e cumpra seu objetivo.
 <!-- Build with -->
 # Construído com 🛠️
 
-Para ajudar na construção de tudo isso utlizei apenas HTML, CSS, JS e o Framework Jquery.
+Para ajudar na construção de tudo isso, utilizei apenas HTML, CSS, JS e o framework jQuery.
+
+Utilizei a linguagem de marcação para delimitar o conteúdo da página, como por exemplo, definindo as seções, divs, criando formulários e botões.
+
+Com o CSS, além de definir a estética da página com cores e imagens, consegui criar a responsividade dela programando Media Queries, permitindo uma maior adaptação para a maioria dos dispositivos.
+
+Por fim, com JavaScript e jQuery, consegui programar a dinâmica da página com o clique dos botões e um scroll dinâmico com a imagem do header da página.
 
 <br>
 
@@ -97,7 +103,7 @@ Não se esqueça de dar uma estrela ao projeto! Obrigado!
 1. Fork do repositório
 2. Crie sua Feature Branch (`git checkout -b feature/DesenvolvimentoWeb`)
 3. Commit em suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push sua Branch (`git push origin feature/AmazingFeature`)
+4. Push sua Branch (`git push origin feature/DesenvolvimentoWeb`)
 5. Abra uma Pull Request.
 
 <p align="right" name="blankline">-</p>
@@ -135,7 +141,7 @@ Fique à vontade para dar um alô!
 <!-- Tools References -->
 [Javascript-shield]: https://img.shields.io/badge/Javascript-35495E?style=for-the-badge&logo=Javascript&logoColor=FFFF00
 [Javascript-url]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-[JQuery.com]: https://img.shields.io/badge/jQuery-35495E?style=for-the-badge&logo=jquery&logoColor=white
+[JQuery.com]: https://img.shields.io/badge/jQuery-35495E?style=for-the-badge&logo=jquery&logoColor=0868ac
 [JQuery-url]: https://jquery.com
 
 <!-- Footer References -->
