@@ -594,10 +594,6 @@ ul.actions.fit li>* {
 	width: 100%;
 }
 
-ul.actions.fit.stacked {
-	width: 100%;
-}
-
 @media screen and (max-width: 480px) {
 
 	ul.actions:not(.fixed) {
@@ -858,21 +854,6 @@ input[type="submit"]:active,
 	padding-top: 0;
 }
 
-/* Touch */
-
-body.is-touch .image.thumb:before {
-	opacity: 0.5 !important;
-}
-
-body.is-touch .image.thumb:after {
-	display: none !important;
-}
-
-body.is-touch #header {
-	background-attachment: scroll;
-	background-size: auto, cover;
-}
-
 /* XLarge */
 
 @media screen and (max-width: 1800px) {
@@ -938,10 +919,7 @@ body.is-touch #header {
 
 	h1 br,
 	h2 br,
-	h3 br,
-	h4 br,
-	h5 br,
-	h6 br {
+	h3 br {
 		display: none;
 	}
 
@@ -1036,11 +1014,6 @@ body.is-touch #header {
 	}
 
 	/* Section/Article */
-
-	section.special,
-	article.special {
-		text-align: center;
-	}
 
 	header.major h2 {
 		font-size: 1.35rem;
