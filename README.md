@@ -62,8 +62,8 @@ Uma lista de atalhos que te levam diretamente ao repositório do projeto selecio
 - [Formulário](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto10-(Formulario))
 - [Github](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto11-(Github))
 - [Acessibilidade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto12-(Acessibilidade))
-- [Interatividade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto13-(Interatividade))
-- [Single Page](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto14-(SinglePage))
+- [Interatividade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/MarioJump)
+- [Single Page](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/SinglePage)
 - [Portfólio](https://github.com/LopesAuth/Lopesfolio)
 <br>
 
