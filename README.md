@@ -64,8 +64,7 @@ Uma lista de atalhos que te levam diretamente ao repositório do projeto selecio
 - [Acessibilidade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto12-(Acessibilidade))
 - [Interatividade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto13-(Interatividade))
 - [Single Page](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto14-(SinglePage))
-- [Portfólio](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto15-(Portfolio))
-
+- [Portfólio](https://github.com/LopesAuth/Lopesfolio)
 <br>
 
 <!-- Tools -->
