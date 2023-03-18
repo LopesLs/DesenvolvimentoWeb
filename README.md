@@ -51,18 +51,17 @@
 Uma lista de atalhos que te levam diretamente ao repositório do projeto selecionado.
 
 - [Sobre mim](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto01-(SobreMim))
-- [Biblioteca](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto02-(Biblioteca))
-- [Biblioteca Update](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto03-(BibliotecaUpdate))
+- [Biblioteca](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Biblioteca)
 - [Paragráfo](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto04-(Paragrafo))
 - [Botões](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto05-(Botoes))
-- [Locadora](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto06-(Locadora))
+- [Locadora](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Locadora)
 - [Git](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto07-(Git))
 - [Js](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto08-(Js))
 - [Equacões](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto09-(Equacoes))
-- [Formulário](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto10-(Formulario))
+- [Cadastro Usários](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/CadastraUser)
 - [Github](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto11-(Github))
 - [Acessibilidade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/Projeto12-(Acessibilidade))
-- [Interatividade](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/MarioJump)
+- [Mário Jump](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/MarioJump)
 - [Single Page](https://github.com/LopesLs/DesenvolvimentoWeb/tree/main/SinglePage)
 - [Portfólio](https://github.com/LopesAuth/Lopesfolio)
 <br>
@@ -114,7 +113,7 @@ Fique à vontade para dar um alô!
 [whatsapp-shield]: https://img.shields.io/badge/-Whatsapp-black.svg?style=for-the-badge&logo=whatsapp&colorB=555
 [whatsapp-url]: https://wa.me/558393636048
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/dev-carlos-lopes/
+[linkedin-url]: https://www.linkedin.com/in/lopeslsdev/
 [discord-shield]: https://img.shields.io/badge/-Discord-black.svg?style=for-the-badge&logo=discord&colorB=555
 [discord-url]: https://discord.com/users/471767983014805504
 [gmail-shield]: https://img.shields.io/badge/-gmail-black.svg?style=for-the-badge&logo=gmail&colorB=555
