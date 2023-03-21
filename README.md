@@ -76,7 +76,7 @@ Algumas ferramentas que eu gostaria de compartilhar.
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 - [React Icons](https://react-icons.github.io/react-icons/search)
-- [Markdwon](https://www.markdownguide.org/)
+- [Markdown](https://www.markdownguide.org/)
 
 <br>
 
