@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181a1b;
+  color: #e8e6e3;
+}
+
+header h1 {
+  border-bottom: 0.15rem solid;
+  text-align: center;
+  transition: 1s ease-in-out;
+}
+
+header h1:hover {
+  color: #43eef4;
+  border-color: #43eef4;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+input {
+  text-align: center;
+  border-style: ridge;
+  border-radius: 0.20rem;
+  padding: 0.2rem;
+  background-color: #2b2a33;
+  color: inherit;
+  border-color: #75747a;
+}
+
+input[type='checkbox'], input[type='file'] {
+  background-color: rgb(19, 21, 22) !important;
+}
+
+section {
+  display: inline-table;
+  margin: 0.75rem;
+}
+
+article {
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+article select {
+  margin: 0.5rem 4.5rem 0rem 0rem;
+}
+
+.inline {
+  display: inline;
+}
+
+.titleDate {
+  margin-top: 1.45rem;
+}
+
+aside {
+  display: block;
+}
