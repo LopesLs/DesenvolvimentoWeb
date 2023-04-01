@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #181a1b;
+  color: #e8e6e3;
+}
+
+header h1 {
+  border-bottom: 0.15rem solid;
+  text-align: center;
+  transition: 1s ease-in-out;
+}
+
+header h1:hover {
+  color: #43eef4;
+  border-color: #43eef4;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+input {
+  text-align: center;
+  border-style: ridge;
+  border-radius: 0.2rem;
+  padding: 0.2rem;
+  background-color: #2b2a33;
+  color: inherit;
+  border-color: #75747a;
+}
+
+section {
+  display: inline-table;
+  margin: 0.75rem;
+}
+
+div {
+  display: inline-table;
+  margin: 0.25rem;
+}
+
+article {
+  margin: 1rem 0rem 0rem 0rem;
+}
+
+article select {
+  margin: 0.5rem 4.5rem 0rem 0rem;
+}
+
+select {
+  background-color: #2b2a33;
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+}
+
+.custom-file-upload {
+  padding: 0.4rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #181a1b;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.custom-file-upload:hover {
+  background-color: #2a2a30;
+}
+
+.custom-radio {
+  display: none;
+}
+
+.button {
+  padding: 0.25rem;
+  width: 7.5rem;
+}
+
+.button:hover {
+  background-color: #3d3d41;
+}
+
+.button:active {
+  background-color: #181a1b;
+}
+
+.custom-radio + .custom-labelrd:before {
+  content: "";
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #2b2a33;
+  border: 1px solid gray;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 8px;
+  margin-bottom: 3px;
+}
+
+.custom-radio:checked + .custom-labelrd:before {
+  background-color: #2b2a33;
+  box-sizing: border-box;
+  border: 5px solid #43eef4;
+  padding: 4px;
+}
+
+.inline {
+  display: inline;
+}
+
+.titleDate {
+  margin-top: 1.3rem;
+}
